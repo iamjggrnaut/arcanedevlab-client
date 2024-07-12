@@ -6,12 +6,14 @@ import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import ServicePage from './pages/ServicePage';
 import ProductsPage from './pages/Products';
+import MoblieNav from './components/MoblieNav';
 
 function App() {
 
   return (
     <div className="App">
       <Navbar />
+      <MoblieNav />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/products' element={<ProductsPage />} />
