@@ -33,7 +33,7 @@ const ProductsPage = () => {
                 <p>Мы готовимся к запуску. Следите за нашими обновлениями!</p>
                 <h3>До релиза</h3>
                 <h2 className='timer'>
-                    {countdown && countdown?.diffSeconds >= 0 ? `
+                    {countdown && countdown.diffSeconds >= 0 ? `
                     ${countdown.diffDays} : 
                     ${String(countdown.diffHours).length < 2 ? '0' + countdown.diffHours : countdown.diffHours} : 
                     ${String(countdown.diffMinutes).length < 2 ? '0' + countdown.diffMinutes : countdown.diffMinutes} : 
@@ -41,6 +41,9 @@ const ProductsPage = () => {
                         : null
                     }
                 </h2>
+                <div className="mobile-release">
+                    <p>18 дней</p>
+                </div>
             </div>
         </div>
     )

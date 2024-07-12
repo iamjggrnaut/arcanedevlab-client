@@ -171,6 +171,11 @@
 
 .service-cards {
   padding: 48px 20px;
+  margin-bottom: 12px;
+}
+
+.mobile-release {
+  display: none;
 }
 
 /* .cards-row {
@@ -437,6 +442,17 @@
   #products>div>div.row.sol-row.pt-5.mb-5 {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .mobile-release {
+    display: flex;
+    color: var(--light-blue);
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .timer {
+    display: none;
   }
 
   .solution-name {
