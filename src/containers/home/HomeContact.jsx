@@ -15,7 +15,7 @@ const HomeContact = () => {
                     <br />
                     <p className="title">Мы в соцсетях</p>
                     <div className="d-flex justify-content-center gap-3">
-                        <a className='con-link-icon' style={{ marginRight: '16px' }} href="https://t.me/hardnuttocrack"><SiTelegram /></a>
+                        <a className='con-link-icon' style={{ marginRight: '16px' }} href="https://t.me/arcanedevlab"><SiTelegram /></a>
                         <a className='con-link-icon' href="https://instagram.com/arcanedevlab"><SiInstagram /></a>
                         {/* <a className='con-link-icon' href="#"><SiYoutube /></a> */}
                     </div>
