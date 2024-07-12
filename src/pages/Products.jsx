@@ -22,7 +22,7 @@ const ProductsPage = () => {
         setTimeout(() => {
             setCountdown({ ...countdown, diffDays, diffHours, diffMinutes, diffSeconds });
         }, 1000);
-    });
+    }, [countdown]);
 
 
     return (
