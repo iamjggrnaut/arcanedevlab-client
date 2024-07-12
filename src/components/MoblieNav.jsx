@@ -17,7 +17,9 @@ const MoblieNav = () => {
             <LogoSvg />
 
             <div>
-                <GiHamburgerMenu className='mobicon' onClick={() => setShow(!show)} />
+                {
+                    current && current === 'products' ? null : <GiHamburgerMenu className='mobicon' onClick={() => setShow(!show)} />
+                }
             </div>
             {
                 current && current === 'products' ?
