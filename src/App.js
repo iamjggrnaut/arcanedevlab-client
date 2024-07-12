@@ -4,7 +4,6 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
-import ServicePage from './pages/ServicePage';
 import ProductsPage from './pages/Products';
 import MoblieNav from './components/MoblieNav';
 
