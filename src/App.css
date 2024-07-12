@@ -402,6 +402,12 @@
     transition: all 0.3s ease-in-out;
   }
 
+  .cards-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   .mobipanel {
     display: flex;
     align-items: center;
