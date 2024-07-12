@@ -27,7 +27,7 @@ const HomeService = () => {
                 </div>
                 <div className="service-cards">
                     <div className="row cards-row gap-4">
-                        <div className="col service-card">
+                        <div className="col service-card mb-2">
                             <div className="d-flex align-items-center justify-content-between">
                                 <h5 className='mb-0'>Веб разработка</h5>
                                 <SlGlobe className='card-icon' />
@@ -41,7 +41,7 @@ const HomeService = () => {
                                 more
                             </button> */}
                         </div>
-                        <div className="col service-card">
+                        <div className="col service-card mb-2">
                             <div className="d-flex align-items-center justify-content-between">
                                 <h5 className='mb-0'>Мобильная разработка</h5>
                                 <RiSmartphoneLine className='card-icon' />
@@ -55,7 +55,7 @@ const HomeService = () => {
                                 more
                             </button> */}
                         </div>
-                        <div className="col service-card">
+                        <div className="col service-card mb-2">
                             <div className="d-flex align-items-center justify-content-between">
                                 <h5 className='mb-0'>UX/UI дизайн</h5>
                                 <SiAntdesign className='card-icon' />
@@ -71,7 +71,7 @@ const HomeService = () => {
                         </div>
                     </div>
                     <div className="row cards-row gap-4 mt-4">
-                        <div className="col service-card">
+                        <div className="col service-card mb-2">
                             <div className="d-flex align-items-center justify-content-between">
                                 <h5 className='mb-0'>Тестирование приложений</h5>
                                 <SiVitest className='card-icon' />
@@ -85,7 +85,7 @@ const HomeService = () => {
                                 more
                             </button> */}
                         </div>
-                        <div className="col service-card">
+                        <div className="col service-card mb-2">
                             <div className="d-flex align-items-center justify-content-between">
                                 <h5 className='mb-0'>Автоматизация бизнеса</h5>
                                 <TiFlowSwitch className='card-icon' />
@@ -99,7 +99,7 @@ const HomeService = () => {
                                 more
                             </button> */}
                         </div>
-                        <div className="col service-card">
+                        <div className="col service-card mb-2">
                             <div className="d-flex align-items-center justify-content-between">
                                 <h5 className='mb-0'>Telegram боты</h5>
                                 <FaTelegram className='card-icon' />
